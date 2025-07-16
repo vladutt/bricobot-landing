@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  brico-bot-landing:
+    image: react-build
+    container_name: nginx-brico-bot-landing
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8082:80'
+    volumes:
+      - ./:/app/src
+    restart: unless-stopped
