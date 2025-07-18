@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { Code, Search, TrendingUp, Wrench, Plus, Minus, Package, List } from "lucide-react";
+import {Code, Search, TrendingUp, Wrench, Plus, Minus, Package, List, Bell} from "lucide-react";
 
 export default function DocsPage() {
     const commands = [
@@ -17,6 +17,13 @@ export default function DocsPage() {
             command: "!lvl [profession] [level]",
             description: "Sets your level in a specific profession.",
             example: "!lvl foraging 20",
+            category: "Profile"
+        },
+        {
+            icon: <Bell className="w-5 h-5" />,
+            command: "/remember-reset",
+            description: "Bot will sent to you an message to remind you when the NPC tasks are rested.",
+            example: "/remember-reset",
             category: "Profile"
         },
         {
