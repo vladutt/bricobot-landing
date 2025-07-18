@@ -23,7 +23,7 @@ export default function Page() {
               with simple, team-friendly commands.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://discord.com/oauth2/authorize?client_id=1389626915111043193&permissions=395405437952&response_type=code&redirect_uri=https%3A%2F%2Fapi.bricobot.site%2Finstall&integration_type=0&scope=bot+identify+email+role_connections.write+guilds.members.read+connections" target="_blank">
+              <a href="https://discord.com/oauth2/authorize?client_id=1389626915111043193&permissions=397553183744&response_type=code&redirect_uri=https%3A%2F%2Fapi.bricobot.site%2Finstall&integration_type=0&scope=identify+email+bot+guilds.members.read" target="_blank">
                 <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3">
                   <Bot className="h-5 w-5 mr-2" />
                   Invite BricoBot
