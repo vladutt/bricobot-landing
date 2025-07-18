@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import {Code, Search, TrendingUp, Wrench, Plus, Minus, Package, List, Bell} from "lucide-react";
+import {Code, Search, TrendingUp, Wrench, Plus, Minus, Package, List, Bell, Monitor} from "lucide-react";
 
 export default function DocsPage() {
     const commands = [
@@ -63,6 +63,13 @@ export default function DocsPage() {
             command: "!tasks",
             description: "Displays a list of all active (unfinished) tasks.",
             example: "!tasks",
+            category: "Query"
+        },
+        {
+            icon: <Monitor className="w-5 h-5" />,
+            command: "!task [name]",
+            description: "Displays a task (unfinished) by name.",
+            example: '!task "Sturdy Chest"',
             category: "Query"
         }
     ];
