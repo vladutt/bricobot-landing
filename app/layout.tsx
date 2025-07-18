@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Badge } from "@/components/ui/badge"
-import {Bot, Github, MessageCircle, Home, FileText, Shield} from "lucide-react"
+import {Bot, Github, MessageCircle} from "lucide-react"
 import { Button } from "@/components/ui/button"
-import Link from "next/link"
 import { NavigationMenu } from '@/components/ui/navigation-menu'
 
 export const metadata: Metadata = {

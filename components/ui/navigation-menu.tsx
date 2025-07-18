@@ -1,4 +1,3 @@
-// app/components/navigation-menu.tsx
 "use client"
 
 import { usePathname } from 'next/navigation'
