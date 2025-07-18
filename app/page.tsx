@@ -1,4 +1,14 @@
-import { Bot, Users, Package, Truck, Settings, Search, ArrowRight, Github, MessageCircle } from "lucide-react"
+import {
+  Bot,
+  Users,
+  Package,
+  Truck,
+  Settings,
+  Search,
+  ArrowRight,
+  MessageCircle,
+  BookOpenText
+} from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -30,14 +40,16 @@ export default function Page() {
                   <ArrowRight className="h-5 w-5 ml-2" />
                 </Button>
               </a>
-              <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-800 px-8 py-3 bg-transparent"
-              >
-                <Github className="h-5 w-5 mr-2" />
-                View Documentation (soon)
-              </Button>
+              <a href="/docs">
+                <Button
+                    size="lg"
+                    variant="outline"
+                    className="border-slate-600 text-slate-300 hover:bg-slate-800 px-8 py-3 bg-transparent"
+                >
+                  <BookOpenText className="h-5 w-5 mr-2" />
+                  View Documentation
+                </Button>
+              </a>
             </div>
           </div>
         </section>
@@ -55,9 +67,9 @@ export default function Page() {
             <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm">
               <CardHeader>
                 <Users className="h-10 w-10 text-purple-400 mb-2" />
-                <CardTitle className="text-white">Coordinate Professions</CardTitle>
+                <CardTitle className="text-white">Cross-Server Professions</CardTitle>
                 <CardDescription className="text-slate-400">
-                  Organize your team's roles and specializations for maximum efficiency
+                  Organize your team's roles and specializations for maximum efficiency. In the same time, your profile will be synced across all your servers.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -65,9 +77,9 @@ export default function Page() {
             <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm">
               <CardHeader>
                 <Package className="h-10 w-10 text-purple-400 mb-2" />
-                <CardTitle className="text-white">Manage Materials</CardTitle>
+                <CardTitle className="text-white">Manage Objectives</CardTitle>
                 <CardDescription className="text-slate-400">
-                  Track material requirements and inventory across all your projects
+                  Track your objectives as a team and keep them organized. Help your team stay on track by setting up daily, weekly, and monthly objectives.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -75,9 +87,9 @@ export default function Page() {
             <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm">
               <CardHeader>
                 <Truck className="h-10 w-10 text-purple-400 mb-2" />
-                <CardTitle className="text-white">Track Deliveries</CardTitle>
+                <CardTitle className="text-white">Check Professions</CardTitle>
                 <CardDescription className="text-slate-400">
-                  Monitor deliveries and ensure nothing falls through the cracks
+                  You can search for professions and see top 10 members of your team that with the selected profession.
                 </CardDescription>
               </CardHeader>
             </Card>

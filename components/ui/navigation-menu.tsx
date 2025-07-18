@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation'
 import Link from "next/link"
-import { Home, FileText, Shield } from "lucide-react"
+import {Home, FileText, Shield, BookOpenText} from "lucide-react"
 
 export function NavigationMenu() {
     const pathname = usePathname()
@@ -11,6 +11,7 @@ export function NavigationMenu() {
         { href: '/', label: 'Home', icon: Home },
         { href: '/terms-and-conditions', label: 'Terms', icon: FileText },
         { href: '/privacy-policy', label: 'Privacy', icon: Shield },
+        { href: '/docs', label: 'Docs', icon: BookOpenText },
     ]
 
     return (

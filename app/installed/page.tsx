@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Page() {
+export default function InstalledPage() {
     return (
         <section className="container mx-auto px-4 py-16">
             <div className="max-w-4xl mx-auto">

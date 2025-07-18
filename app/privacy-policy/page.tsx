@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Shield, Database, Users, Lock, Eye, Mail } from "lucide-react";
 
-export default function Page() {
+export default function PrivacyPolicyPage() {
     return (
         <div className="container mx-auto px-4 py-8 max-w-4xl">
             <div className="text-center mb-8">
