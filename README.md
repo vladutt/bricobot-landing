@@ -6,7 +6,7 @@ A modern landing page built with Next.js and TypeScript.
 
 ## Description
 
-Brico Landing Page is a modern web application built with Next.js and TypeScript, providing an elegant and responsive user experience for Brico services.
+Brico Landing Page is a modern web application built with Next.js and TypeScript, providing an elegant and responsive user experience.
 
 ## Technologies Used
 

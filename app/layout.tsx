@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Badge } from "@/components/ui/badge"
-import {Bot, Github, MessageCircle} from "lucide-react"
+import {Bot, Github, MessageCircle, Home, FileText, Shield} from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
+import { NavigationMenu } from '@/components/ui/navigation-menu'
 
 export const metadata: Metadata = {
   title: 'BricoBot',
@@ -24,7 +26,10 @@ export default function RootLayout({
             <Bot className="h-8 w-8 text-purple-400" />
             <a href="/"> <span className="text-2xl font-bold text-white">BricoBot</span></a>
           </div>
-          <div>
+
+          <NavigationMenu />
+
+          <div className="text-center">
             <a href="https://github.com/vladutt/bricobot-landing" className="mr-3" target="_blank">
               <Button
                   variant="outline"
