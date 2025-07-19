@@ -77,7 +77,7 @@ export default function DocsPage() {
             command: "!task-delete [name]",
             description: "Delete a task by name.",
             example: '!task-delete "Sturdy Chest"',
-            category: "Query"
+            category: "Task Management"
         }
     ];
 
