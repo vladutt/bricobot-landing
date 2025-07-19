@@ -31,7 +31,7 @@ export default function InstalledPage() {
                             <p className="text-slate-300 mb-4">
                                 Jump right into using BricoBot by typing <code className="bg-slate-900/50 px-2 py-1 rounded text-purple-200">!help</code> in your Discord server.
                             </p>
-                            <p className="text-sm text-slate-400">Quick and easy - no setup required!</p>
+                            <p className="text-sm text-slate-400">Quick and easy - batteries not included</p>
                         </div>
                     </div>
 
