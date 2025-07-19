@@ -71,6 +71,13 @@ export default function DocsPage() {
             description: "Displays a task (unfinished) by name.",
             example: '!task "Sturdy Chest"',
             category: "Query"
+        },
+        {
+            icon: <Monitor className="w-5 h-5" />,
+            command: "!task-delete [name]",
+            description: "Delete a task by name.",
+            example: '!task-delete "Sturdy Chest"',
+            category: "Query"
         }
     ];
 
