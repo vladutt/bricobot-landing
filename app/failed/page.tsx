@@ -18,7 +18,7 @@ export default function FailedPage() {
                     If the problem persists, please contact the developer.
                 </p>
                 <p className="text-m text-slate-300 mb-8 text-center">
-                    The developer's Discord username is yzy0867.
+                    Check our discord server for support. <a href="https://discord.gg/sWdBut2P" target="_blank">BricoBot DEV</a>
                 </p>
             </div>
         </section>

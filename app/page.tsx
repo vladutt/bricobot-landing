@@ -44,7 +44,7 @@ export default function Page() {
                 <Button
                     size="lg"
                     variant="outline"
-                    className="border-slate-600 text-slate-300 hover:bg-slate-800 px-8 py-3 bg-transparent"
+                    className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white bg-transparent"
                 >
                   <BookOpenText className="h-5 w-5 mr-2" />
                   View Documentation
@@ -172,12 +172,13 @@ export default function Page() {
                   <span className="text-white font-semibold">Connect with the Developer</span>
                 </div>
                 <p className="text-slate-400 mb-4">Have ideas, questions, or want to help develop BricoBot?</p>
-                <Badge
-                    variant="secondary"
-                    className="bg-purple-500/20 text-purple-300 border-purple-500/30 text-lg px-4 py-2"
-                >
-                  Discord: yzy0867
-                </Badge>
+                <a href="https://discord.gg/sWdBut2P" target="_blank">
+                  <Button
+                      variant="outline"
+                      className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white bg-transparent">
+                    Join our Discord
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           </div>

@@ -66,8 +66,6 @@ export default function RootLayout({
             </Badge>
           </div>
 
-          <p className="text-white text-sm">Contact: contact@vladutteodor.ro</p>
-
           <p className="text-slate-500 text-sm">
             Built for the BitCraft community with ❤️ @
             <a

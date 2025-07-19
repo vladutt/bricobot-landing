@@ -158,6 +158,9 @@ export default function TermsAndConditionsPage() {
                 <p>
                     © {new Date().getFullYear()} BricoBot. All rights reserved.
                 </p>
+                <p className="mt-2">
+                    This Privacy Policy is compliant with GDPR and other applicable privacy laws.
+                </p>
             </div>
         </div>
     );
