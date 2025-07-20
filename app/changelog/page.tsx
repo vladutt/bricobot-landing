@@ -206,6 +206,10 @@ export default function ChangelogPage() {
                             <div className="space-y-3">
                                 <div className="flex items-center gap-2">
                                     <Plus className="w-4 h-4 text-green-400" />
+                                    <span className="text-slate-300">Materials can be delivered to tasks through emoji reactions</span>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <Plus className="w-4 h-4 text-green-400" />
                                     <span className="text-slate-300">Trade System - Material exchange between members</span>
                                 </div>
                                 <div className="flex items-center gap-2">
