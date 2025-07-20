@@ -28,10 +28,10 @@ export default function DocsPage() {
         },
         {
             icon: <Wrench className="w-5 h-5" />,
-            command: "!task [name] [materials]",
+            command: "/task",
             description: "Creates a new task that everyone can see.",
-            example: '!task "Sturdy Chest" "Sturdy Rope - 1, Sturdy Plank - 5"',
-            note: "This creates a task named Sturdy Chest requiring 1 Sturdy Rope and 5 Sturdy Planks.",
+            example: '/task"',
+            note: "This will open a modal where you can create a new task.",
             category: "Task Management"
         },
         {
