@@ -1,9 +1,10 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Badge } from "@/components/ui/badge"
-import {Bot, Github, MessageCircle} from "lucide-react"
+import {Bot, Github, Icon, MessageCircle} from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { NavigationMenu } from '@/components/ui/navigation-menu'
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: 'BricoBot',
@@ -64,6 +65,23 @@ export default function RootLayout({
             <Badge variant="secondary" className="ml-2">
               Beta
             </Badge>
+          </div>
+
+          <div className="hidden md:flex items-center gap-6">
+            <Link
+                href="/terms-and-conditions"
+                className="flex items-center gap-2 transition-colors text-white hover:text-purple-400"
+            >
+              <Icon className="h-4 w-4" iconNode={[]} />
+              <span>Terms</span>
+            </Link>
+            <Link
+                href="/privacy-policy"
+                className="flex items-center gap-2 transition-colors text-white hover:text-purple-400"
+            >
+              <Icon className="h-4 w-4" iconNode={[]} />
+              <span>Privacy</span>
+            </Link>
           </div>
 
           <p className="text-slate-500 text-sm">
