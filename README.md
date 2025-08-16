@@ -25,3 +25,5 @@ Brico Landing Page is a modern web application built with Next.js and TypeScript
 - ⚡ Optimized performance
 - 🔧 Reusable UI components
 - 🎯 Enhanced accessibility
+
+Live action: https://bricobot.site
